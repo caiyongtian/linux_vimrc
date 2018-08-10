@@ -34,7 +34,7 @@ alias ng-sd="sudo nginx -s stop"
 
 #----------My shell shortcut--------------#
 alias rc='vim ~/.bashrc'
-alias src='source ~/.bash_profile'
+alias src='source ~/.bashrc'
 alias vimrc='vim ~/.vimrc'
 
 alias bc='cd -'
