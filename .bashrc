@@ -68,13 +68,15 @@ alias ssh-mg='ssh root@10.210.10.35'
 
 # alias for git
 alias git-conf='vim ~/.gitconfig'
-alias gs="git status"
-alias gc="git checkout"
-alias gcb="git checkout -branch"
-alias gmf="git merge --no-ff"
-alias gcm='git commit -m'
-alias ga="git add --all"
-alias gp="git push"
+alias git-set='git config --global user.name "caiyongtian" && git config --global user.mail "709731685@qq.com"'
+alias gs="git status" #查看状态
+alias gc="git checkout"  #签出
+alias gcb="git checkout -branch"  #拆分分支
+alias gmf="git merge --no-ff"  #合并分支
+alias gcm='git commit -m'  #添加到仓库
+alias ga="git add --all"  #添加到工作区
+alias gra="remote add origin" #后面添加仓库地址
+alias gp="git push -u origin master" #上传到远程仓库
 
 #--------------My shell scripts---------------#
 
