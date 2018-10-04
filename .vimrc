@@ -22,7 +22,7 @@ Plugin 'gmarik/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-
+Plugin 'tpope/vim-commentary'
 Plugin 'kabbamine/vcoolor.vim'
 Plugin 'guns/vim-clojure-highlight'
 Plugin 'guns/vim-sexp'
@@ -58,6 +58,9 @@ Plugin 'scrooloose/nerdtree'
 
 call vundle#end()
 
+
+"vim-commentary gcc for #
+autocmd FileType blade set commentstring=#\ <!--%s--!>
 " 针对不同的文件类型采用不同的缩进格式
 filetype plugin indent on
 
